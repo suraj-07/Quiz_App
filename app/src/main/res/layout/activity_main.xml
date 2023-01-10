@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2B31818"
+    android:background="@drawable/start_page"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,7 +14,7 @@
         android:text="Quiz App"
         android:textSize="45dp"
         android:layout_margin="44dp"
-        android:background="#00FFFF"
+        android:background="#FFFFFF"
         android:layout_centerHorizontal="true"
          />
 

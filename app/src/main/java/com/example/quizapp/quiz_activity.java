@@ -62,11 +62,12 @@ public class quiz_activity extends AppCompatActivity {
         questionsLists= question_bank.getQuesions(get_topic_name);
 
         questions.setText((currentQuestionPosition+1)+"/"+questionsLists.size());
-        question.setText(questionsLists.get(0).getQuestion());
-        op1.setText(questionsLists.get(0).getOption1());
-        op2.setText(questionsLists.get(0).getOption2());
-        op3.setText(questionsLists.get(0).getOption3());
-        op4.setText(questionsLists.get(0).getOption4());
+        question.setText(questionsLists.get(currentQuestionPosition).getQuestion());
+        quiz_img.setImageResource(questionsLists.get(currentQuestionPosition).getQuiz_image());
+        op1.setText(questionsLists.get(currentQuestionPosition).getOption1());
+        op2.setText(questionsLists.get(currentQuestionPosition).getOption2());
+        op3.setText(questionsLists.get(currentQuestionPosition).getOption3());
+        op4.setText(questionsLists.get(currentQuestionPosition).getOption4());
 
         startTimer(timer);
 
@@ -208,6 +209,11 @@ public class quiz_activity extends AppCompatActivity {
             op4.setText(questionsLists.get(currentQuestionPosition).getOption4());
 
 
+
+
+        }
+        else
+        {
             Intent intent = new Intent(quiz_activity.this,quiz_result.class);
 
             intent.putExtra("correct", getCorrectAnswer().first);
@@ -215,7 +221,6 @@ public class quiz_activity extends AppCompatActivity {
             startActivity(intent);
 
             finish();
-
         }
     }
 
