@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:text="Algorithm"
+            android:text="Quiz Type 1"
             android:textColor="#CC000000"
             android:textSize="18sp"
             android:textStyle="bold"/>
@@ -72,14 +72,14 @@
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/algo_pic"
+                android:src="@drawable/android_img"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:text="Algosrithm"
+                android:text="Quiz Type 2"
                 android:textColor="#CC000000"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
@@ -115,14 +115,14 @@
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/algo_pic"
+                android:src="@drawable/finish__quiz"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:text="Algorithm"
+                android:text="Quiz Type 3"
                 android:textColor="#CC000000"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
@@ -143,14 +143,14 @@
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/algo_pic"
+                android:src="@drawable/apple_img"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:text="Algosrithm"
+                android:text="Quiz Type 4"
                 android:textColor="#CC000000"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
